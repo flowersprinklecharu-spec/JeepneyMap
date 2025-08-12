@@ -1,0 +1,96 @@
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centers the table horizontally */
+   }
+   
+   table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+   }
+   
+   th:nth-child(1), td:nth-child(1) { width: 15%; } /* ID */
+   th:nth-child(2), td:nth-child(2) { width: 20%; } /* Name */
+   th:nth-child(3), td:nth-child(3) { width: 25%; } /* Email */
+   th:nth-child(4), td:nth-child(4) { width: 10%; } /* Contact */
+   th:nth-child(5), td:nth-child(5) { width: 30%; } /* Actions */
+   
+   th {
+    background-color: #0099ff;
+    color: white;
+   }
+   
+   tr:nth-child(even) {
+    background-color: #f2f2f2;
+   }
+   
+   tr:hover {
+    background-color: #ddd;
+   }
+   
+   button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+   }
+   
+   button:hover {
+    opacity: 0.8;
+   }
+   
+   /* Updated Button Colors */
+   .edit { 
+    background-color: #4CAF50; /* Green */
+    color: white;
+   }
+   
+   .delete { 
+    background-color: #ff0000; /* Red */
+    color: white;
+   }
+   
+   .view { 
+    background-color: #ffc800; /* Purple */
+    color: white;
+   }
+   
+   .container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+   }
+   
+   h2 {
+    text-align: center;
+    color: #333;
+   }
+   
+   .add-btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+   }
+   
+   .add-btn:hover {
+    background-color: #0080d5;
+   }
+   
+   .btn {
+    padding: 10px 16px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
