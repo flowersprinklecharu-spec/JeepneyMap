@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <div className="header">
-            <p className="logo">Contact App</p>
+            <p className="logo">Contact</p>
             <div className="header-right">
                 
                 <Link to="/" onClick={() =>setActiveTab("Home")}>
